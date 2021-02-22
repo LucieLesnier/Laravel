@@ -20,7 +20,7 @@ Route::get('/cart', function () {
     return 'Panier';
 });
 Route::get('/product/{id}', function ($id) {
-    return 'Fiche du produit'.$id;
+    return 'Fiche du produit'.' '.$id;
 });
 Route::get('/product', function () {
     return 'Liste des produits';
